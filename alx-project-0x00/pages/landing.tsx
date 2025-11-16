@@ -8,29 +8,33 @@ const Landing: React.FC = () => {
       <Card />
       <Button
         title="Small Button"
-        className="text-sm bg-blue-500 text-white rounded-sm"
+        styles="text-sm bg-blue-500 text-white rounded-sm"
       />
       <Button
         title="Medium Button"
-        className="text-base bg-green-500 text-white rounded-md"
+        styles="text-base bg-green-500 text-white rounded-md"
       />
       <Button
         title="Large Button"
-        className="text-lg bg-red-500 text-white rounded-full"
+        styles="text-lg bg-red-500 text-white rounded-full"
       />
 
       {/* Shapes */}
       <Button
         title="Rounded Small"
-        className="bg-purple-500 text-white rounded-sm"
+        styles="bg-purple-500 text-white rounded-sm"
       />
       <Button
         title="Rounded Medium"
-        className="bg-yellow-500 text-black rounded-md"
+        styles="bg-yellow-500 text-black rounded-md"
+      />
+      <Button
+        title="Rounded Medium"
+        styles="bg-yellow-500 text-black rounded-lg"
       />
       <Button
         title="Rounded Full"
-        className="bg-pink-500 text-white rounded-full"
+        styles="bg-pink-500 text-white rounded-full"
       />
     </div>
   );
